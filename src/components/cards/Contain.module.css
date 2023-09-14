@@ -1,0 +1,12 @@
+.contain {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+@media screen and (max-width: 790px) {
+    .contain {
+        width: 100%;
+    }
+}

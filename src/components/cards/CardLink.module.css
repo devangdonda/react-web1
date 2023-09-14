@@ -1,0 +1,81 @@
+.card {
+    width: 300px;
+    margin: 15px;
+}
+.card-container {
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 3px black;
+    transition: all 0.24s ease-in-out;
+}
+.card-container:hover {
+    box-shadow: 1px 1px 8px 8px white;
+    transform: scale(1.05);
+}
+.card-link {
+    border-radius: 15px;
+    height: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    height: 260px;
+    background-color: blue;
+}
+
+.image-container img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.text-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-logo {
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-align: center;
+    padding: 5px 0px 5px 16px; 
+    background-color: bisque;
+    height: 36px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-logo i {
+    padding-right: 8px;
+}
+.card-for {
+    font-weight: bolder;
+    font-style: italic;
+}
+.card-description {
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    height: 84px;
+    background-color: rgb(255, 99, 99);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    .card {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

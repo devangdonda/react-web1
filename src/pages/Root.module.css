@@ -1,0 +1,31 @@
+.root {
+    background-color: antiquewhite;
+    border: 5px solid black;
+    border-radius: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.root-title {
+    font-size: 55px;
+    font-style: normal;
+    padding: 20px;
+    text-decoration: underline solid 5px black;
+}
+
+@media screen and (max-width: 790px) {
+    .root {
+        font-size: 16px;
+    }
+    .root-title {
+        font-size: 19px;
+    }
+}
