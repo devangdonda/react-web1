@@ -1,15 +1,13 @@
 import "./App.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import PortfolioPage from "./pages/Portfolio";
 import RootPage from "./pages/Root";
 import PersonaPage from "./pages/Persona";
 import EducationPage from "./pages/Education";
 import ProfessionalPage from "./pages/Professional";
 import ErrorPage from "./pages/Error";
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <RootPage />,
