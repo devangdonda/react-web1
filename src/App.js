@@ -36,11 +36,6 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
-  }, [pathname]);
 
   return <RouterProvider router={router} />;
 }
